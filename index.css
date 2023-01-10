@@ -1,0 +1,43 @@
+body{
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+header{
+    background: darkolivegreen;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li{
+    height: 20px;
+    display: inline-flex;
+    margin:25px;
+    list-style-type: none;
+   
+    color:white
+}
+li:hover{
+    background: #000;
+    color: white;
+    border-radius: 5px;
+}
+section{
+    color: white;
+}
+.images{
+ text-align: center;
+}
+img{
+    border-radius: 25px;
+    width: 500px;
+    height: 400px;
+    display: inline;
+}
+.items li {
+    display: flex;
+    color: white;
+}
+.items li a{
+    color:whitesmoke;
+    text-decoration: none;
+}
